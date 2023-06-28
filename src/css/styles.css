@@ -1,0 +1,21 @@
+#Yeezee {
+    text-align: center;
+    width: 40vw;
+    margin: auto;
+    float: left;
+}
+
+#Drumpf {
+    text-align: center;
+    width: 40vw;
+    margin: auto;
+    float: right;
+}
+
+#Trump {
+    align-self: center;
+}
+
+#Kanye {
+    align-self: center;
+}
