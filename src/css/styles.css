@@ -1,8 +1,33 @@
+body {
+    background-color: #1f242d;
+}
+
+h1 {
+    color: transparent;
+    text-align: center;
+    font-size: 100px;
+    -webkit-text-stroke: 3px #0ef;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    animation: neonGlow 1s ease-in-out infinite alternate;
+}
+
+@keyframes neonGlow {
+    0% {
+        text-shadow: 0 0 10px #0ef, 0 0 20px #0ef, 0 0 30px #0ef;
+    }
+
+    100% {
+        text-shadow: 0 0 5px #0ef, 0 0 10px #0ef, 0 0 20px #0ef;
+    }
+}
+
 #Yeezee {
     text-align: center;
     width: 40vw;
     margin: auto;
     float: left;
+
 }
 
 #Drumpf {
@@ -12,10 +37,47 @@
     float: right;
 }
 
+button {
+    width: 100px;
+    height: 50px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 #Trump {
     align-self: center;
+    background-color: #0ef;
+    border-color: #1f242d;
+    color: #1f242d;
+    text-transform: uppercase;
+    animation: pulse 1s ease-in-out infinite;
 }
 
 #Kanye {
     align-self: center;
+    background-color: #0ef;
+    border-color: #1f242d;
+    color: #1f242d;
+    text-transform: uppercase;
+    animation: pulse 1s ease-in-out infinite reverse;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#convo {
+    color: #0ef;
+    font-family: sans-serif;
+    text-align: center;
 }

@@ -36,14 +36,14 @@ async function getTrump() {
 async function printKanye() {
     let newKanyeLine = document.createElement("p");
     let kanyeQuote = await getKanye();
-    newKanyeLine.innerText = `${kanyeQuote.quote}`;
+    newKanyeLine.innerText = "Kanye: " + `${kanyeQuote.quote}`;
     document.getElementById("convo").append(newKanyeLine);
 }
 
 async function printTrump() {
     let newTrumpLine = document.createElement("p");
     let trumpQuote = await getTrump();
-    newTrumpLine.innerText = `${trumpQuote.value}`;
+    newTrumpLine.innerText = "Trump: " + `${trumpQuote.value}`;
     document.getElementById("convo").append(newTrumpLine);
 }
 
