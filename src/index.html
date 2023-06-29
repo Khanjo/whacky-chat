@@ -9,18 +9,21 @@
 
 <body>
     <h1>Kanye & Trump's Fireside Chat</h1>
-    <div id="Yeezee">
-        <img src="./assets/Kanye.jpg" height="500px">
-        <br>
-        <button type="button" id="Kanye">Kanye</button>
-    </div>
-    <div id="Drumpf">
-        <img src="./assets/trump.jpg" height="500">
-        <br>
-        <button type="button" id="Trump">Trump</button>
+    <div id="parent">
+        <div id="Yeezee" class="child">
+            <img src="./assets/Kanye.jpg" height="500px">
+            <br>
+            <button type="button" id="Kanye">Kanye</button>
+        </div>
 
+        <div id="convo" class="child"></div>
+
+        <div id="Drumpf" class="child">
+            <img src="./assets/trump.jpg" height="500">
+            <br>
+            <button type="button" id="Trump">Trump</button>
+        </div>
     </div>
-    <div id="convo"></div>
 </body>
 
 </html>
