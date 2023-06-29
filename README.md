@@ -1,29 +1,42 @@
-# (Application Name)
+# Kanye and Trump Fireside Chat
 
-#### (Brief Description of Application)
+#### Makes API calls for random quotes from Kanye West and Donald Trump
 
-#### By (Your Name Here)
+#### By Joshua Khan, Alejandra El-Dasouki, Alesandria Wild, and Jase Grable
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* Javascript
+* CSS
+* Webpack
 
 ## Description
 
+Have you ever wondered what it would be like to be a fly on the wall when Donald Trump and Kanye West had their meeting? NOW YOU CAN! just click the buttons and see what comes up
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+Software Requirements
+1. Internet browser
+2. A code editor like VSCode or Atom to view or edit the codebase.
+
+Open by downloading:
+1. Download this repository onto your computer by clicking the 'clone or download button'
+2. Double click index.html to open it in your web browser
+
+Open via Bash/GitBash:
+1. Clone this repository onto your computer:
+2. Navigate into the `/whacky-chat` directory in Visual Studio Code or preferred text editor
+`code .`
+3. Open index.html in Chrome or preferred browser:
+`open index.html`
+
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* none known, but feel free to report any to me on my Github page
 
 ## License
+
+[MIT License.](https://opensource.org/license/mit/)
