@@ -21,17 +21,12 @@ Software Requirements
 1. Internet browser
 2. A code editor like VSCode or Atom to view or edit the codebase.
 
-Open by downloading:
-1. Download this repository onto your computer by clicking the 'clone or download button'
-2. Double click index.html to open it in your web browser
-
 Open via Bash/GitBash:
 1. Clone this repository onto your computer:
 2. Navigate into the `/whacky-chat` directory in Visual Studio Code or preferred text editor
 `code .`
-3. Open index.html in Chrome or preferred browser:
-`open index.html`
-
+3. use `npm install` in gitbash to setup webpack and it's necessary plugins
+4. use `npm run start` to launch the page
 
 ## Known Bugs
 
